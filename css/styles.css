@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  color: #40514e;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 70px auto 0 auto;
+  font-family: "Sacramento", "Marck Script", "Pacifico", cursive;
+  font-size: 4rem;
+  color: #6fb98f;
+  /* 16px = 1em = 100% */
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", "Merriweather", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #6fb98f;
+}
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", "Merriweather", sans-serif;
+}
+
+hr {
+  width: 10%;
+  border: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  border-color: #d3f0e4;
+  margin: 60px auto;
+}
+
+u {
+  color: inherit;
+}
+
+/* ============================TOP================================================== */
+
+.top-container {
+  background-color: #eaf6f9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.languages {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+.btn-lang {
+  color: #17b195;
+  font-weight: bold;
+}
+.btn-lang + .btn-lang {
+  margin-left: 10px;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 200px;
+  left: 70%;
+  bottom: 85%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+}
+
+.subtitle {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.middle-container {
+  background-color: #e9faec;
+  padding: 70px 0;
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+/* ============================/TOP================================================== */
+/* ============================MIDLE================================================== */
+
+.skill-row {
+  width: 50%;
+  margin: 10% auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-img-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-img-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* ============================ /MIDLE================================================== */
+
+/* ============================BOTTOM================================================== */
+.bottom-container {
+  background-color: #73cca7;
+  padding: 30px 0 0 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  padding: 5px 30px;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  padding: 20px 0 10px 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.btn {
+  display: inline-block;
+  height: 35px;
+  padding: 8px;
+  margin: 30px auto 0 auto;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(45deg, #addb57, #19f08f);
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #19f08f, #addb57);
+}
+
+.references {
+  font-size: 10px;
+}
